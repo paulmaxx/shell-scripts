@@ -7,7 +7,7 @@ printf "\n\t\t\t Maintainer PRAKASH POUDEL"
 printf "\n\n\n\n"
 sleep 3
 
-./installing-java.sh
+scripts/installing-java.sh
 
 sudo yum update -y
 clear
