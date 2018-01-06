@@ -1,12 +1,15 @@
 #! /bin/bash
 clear
-printf "\n\tThis Script install GIT MAVEN JENKINS ANSIBLE & DOCKER \n\n"
-printf " \t  It only works for %s Family\n\n" "RedHat"
-
-printf "\n\n\n\n\n\n\n"
+printf "\n\t\tThis Script install GIT MAVEN JENKINS ANSIBLE & DOCKER \n\n"
+printf " \t\t  It only works for %s Family\n\n" "RedHat"
+printf "\n\n\n\n"
+printf "\n\t\t\t Maintainer PRAKASH POUDEL"
+printf "\n\n\n\n"
+sleep 3
+printf "\n\n\n"
 printf "\n\t Configuring JAVA in your System \n\n"
 sleep 3
-printf "\n\n\n\n\n\n\n"
+printf "\n\n"
 cd /opt/
 sudo wget --no-cookies --no-check-certificate --header \
 		"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" \
@@ -16,7 +19,7 @@ cd  /opt/jdk1.8.0_151/
 clear
 echo " YOUR JAVA IS INSTALLED "
 echo " YOUR JAVA ENVIRONMENT IS SET UP!! "
-printf "\n\n\n\n\n"
+printf "\n\n\n"
 sleep 5
 clear
 sudo yum update -y
@@ -35,10 +38,7 @@ sudo yum install -y git \
 
 sudo systemctl restart jenkins \
                        docker
-
 clear
-
-
 echo " You are all set "
 sleep 10
 
