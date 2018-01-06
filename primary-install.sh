@@ -1,4 +1,3 @@
-
 #! /bin/bash
 clear
 printf "\n\tThis Script install GIT MAVEN JENKINS ANSIBLE & DOCKER \n\n"
@@ -38,7 +37,7 @@ sudo systemctl restart jenkins \
                        docker
 
 clear
-echo " "
+
 
 echo " You are all set "
 sleep 10
