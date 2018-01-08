@@ -1,7 +1,6 @@
 #! /bin/bash
 echo " Maintainer Prakash Poudel"
-sudo yum update -y \
-         install java-1.8.0-openjdk.x86_64
+sudo yum update -y && yum install wget -y
 sudo mkdir /app && cd /app
 sudo wget https://sonatype-download.global.ssl.fastly.net/nexus/3/nexus-3.0.2-02-unix.tar.gz
 sudo tar -xvf nexus-3.0.2-02-unix.tar.gz && sudo mv nexus-3.0.2-02 nexus && rm nexus*.tar.gz
