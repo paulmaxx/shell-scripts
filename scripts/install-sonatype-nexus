@@ -3,9 +3,7 @@ echo " Maintainer Prakash Poudel"
 ./installing-java.sh
 
 sudo yum update -y && sudo yum install -y wget vim
-sudo mkdir /app && cd /app
-                      sudo wget https://sonatype-download.global.ssl.fastly.net/nexus/3/nexus-3.0.2-02-unix.tar.gz
-                      sudo tar -xvf nexus-3.0.2-02-unix.tar.gz && sudo mv nexus-3.0.2-02 nexus && rm nexus*.tar.gz
+sudo mkdir /app && cd /app && sudo wget https://sonatype-download.global.ssl.fastly.net/nexus/3/nexus-3.0.2-02-unix.tar.gz && sudo tar -xvf nexus-3.0.2-02-unix.tar.gz && sudo mv nexus-3.0.2-02 nexus && rm nexus*.tar.gz
 sudo useradd nexus && sudo usermod -aG wheel nexus && sudo chown -R nexus:nexus /app/nexus
 #run_as_user="nexus"
 sudo ln -s /app/nexus/bin/nexus /etc/init.d/nexus
