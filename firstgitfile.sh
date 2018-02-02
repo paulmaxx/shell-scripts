@@ -4,15 +4,14 @@
 echo "hello"
  
 
- if [ find=home/susam/user ]
-read namaste
+if [ -d /home/susam/user ]
+#read namaste
 
- echo "hajur mere aaka"
+ #echo "hajur mere aaka"
 
 then
    echo "hey we get this "home/susam/user" for you"
-
-  else 
+else 
      echo "hey we cannot get this "home/susam/user"  for you"
 #read=namaste
 
