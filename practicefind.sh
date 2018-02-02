@@ -1,10 +1,10 @@
 #!/bin/bash
 # practice file for more than
 
-if [ -f >224 bytes ]
+if [ find. -type f -size +22400c 2>/dev/null ]
 
 then
- echo "file >224 bytes will be displayed"
+ echo "here are the files"
 
 else 
   echo "no files to display"
