@@ -1,0 +1,56 @@
+#!/bin/bash
+# notes for git and linuxcomand
+
+
+Most used git command
+git status- to see stauts of file 
+git add  --all- to add file
+git commit -m "added files" = commit file with message 
+git push = send file to remote repository
+git pull = already cloned file but this will bring changes and will merge the changes from central repo
+git fetch= this will bring those changes to staging area
+git merge= merging changes in staging area
+git stash= when you are working in different project putting aside current staging area
+git squash=commiting multiple merge into one
+git status SHA code SHA code
+git rebash =if there is any typo happens and to keep the commits in order.
+git cherry-pick= when you do not want to show number of changes you have done numbers of commit you have done.
+to show job is done smoothly done.(when youjust wanted to pick selective commit)
+git log=is a running record of commits. A full log has the following pieces: A commit hash (40 characters)
+git branch= making branches of master
+git checkout -b <branch> =by creating new branch going into new branch.
+git clone <repo>= cloning from the remote repo
+git clone -b <branch> <repo>=cloning master and branche
+git rm <file>
+git reset --hard HEAD= when you want git rid off any unwanted commit
+find .  -name "*.sh"= searching 
+grep "abc" abc.txt =search for any output
+find .  -name "*.sh" -exec grep -i "abc"{} \;= -exec command combine two commans here find and grep,and ends with {} \;
+cut -d -c1 abc.txt= question in DELIM
+sed -i 's |abc |123 |g ' abc.txt='s is for subtitute; -i will replace permanently;  sed wil display the changes you want to see; g is globally.
+ping <ip> checking the internet access or response time of any host or wedsite. or if that host is up or not, if we get respone jt is up if not it is down.
+netcat <ip>checking if that host is accessible or not for e.g. ssh
+nohup = to make things running at backround
+cat abc.txt > abc.log= it writes the output of abc.txt and it redirects  in abc.log.
+cat abc.txt 2>&1 abc.log= linux streams? this show will show error message in redirected file
+df -h= to see the disk spaces size and its availability.
+ 
+iptables= this is where we can configure outbound and inbound traffic.
+cp=copy
+mv=move
+rm=remove
+chmod= change mode 1 two ka 4
+tail= displays tail -20 and default is 10
+head= displays head 20 and default is 10
+
+env= terminal 's environment (details)
+ps -ef= full listing of all processing command and process
+diff=displays the diffrence between files
+wc -l= will show the line count
+finger= will display individuls details
+tar= to archive (tar -c filename)
+gzip=to compress
+kill -9 (process)=kill process hard.
+
+
+
