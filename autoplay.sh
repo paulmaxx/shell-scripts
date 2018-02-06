@@ -3,7 +3,7 @@ clear
 printf "\n\t\tThis Script install GIT MAVEN JENKINS ANSIBLE & DOCKER \n\n"
 printf " \t\t  It only works for %s Family\n\n" "RedHat"
 printf "\n"
-printf "\n\t\t\t Maintainer PRAKASH POUDEL"
+printf "\n\t\t\t Maintainer Susam Sharma"
 printf "\n\n\n\n"
 sleep 3
 
