@@ -1,6 +1,6 @@
 job('$new') {
     scm {
-        git('git://github.com/quidryan/aws-sdk-test.git')
+        git('https://github.com/paulmaxx/shell-scripts.git')
     }
     triggers {
         scm('H/15 * * * *')
