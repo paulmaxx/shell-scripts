@@ -1,4 +1,4 @@
-job('$new') {
+job("${new}") {
     scm {
         git('https://github.com/paulmaxx/shell-scripts.git')
     }
